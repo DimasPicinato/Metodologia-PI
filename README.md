@@ -3,7 +3,7 @@
 Este documento busca responder e documentar: Quem faz?, Como faz? e Quando faz? em uma proposta de metodologia de desenvolvimento para o projeto integrador dos alunos da Fatec Lins - Professor Antonio Seabra no curso de Análise e Desenvolvimento de Sistemas.
 
 > Elaborado por **Dimas Picinato**.  
-> Data da última atualização: **27/02/2026**.
+> Data da última atualização: **28/02/2026**.
 
 # Sumário
 
@@ -25,11 +25,15 @@ Este documento busca responder e documentar: Quem faz?, Como faz? e Quando faz? 
   - [3.5. DevOps](#35-devops)
   - [3.6. Desenvolvedor (Dev)](#36-desenvolvedor-dev)
 - [4. Quadros Kanban](#4-quadros-kanban)
-  - [4.1. Operational](#41-operational)
-  - [4.2. Architectural](#42-architectural)
-  - [4.3. DevOps](#43-devops)
-  - [4.4. Execution](#44-execution)
-  - [4.5. Development](#45-development)
+  - [4.1. Tickets](#41-tickets)
+    - [4.1.1. Níveis](#411-níveis)
+    - [4.1.2. Estrutura](#412-estrutura)
+  - [4.2. Fluxos](#42-fluxos)
+    - [4.2.1. Operational](#421-operational)
+    - [4.2.2. Architectural](#422-architectural)
+    - [4.2.3. DevOps](#423-devops)
+    - [4.2.4. Execution](#424-execution)
+    - [4.2.5. Development](#425-development)
 
 # 1. Ferramentas
 
@@ -119,26 +123,54 @@ O Desenvolvedor é responsável pela implementação das funcionalidades do sist
 
 # 4. Quadros Kanban
 
-Essa seção detalha os quadros e tickets utilizados no projeto, que são divididos em cinco categorias.
+Essa seção detalha os quadros e tickets utilizados no projeto.
 
 Para a organização do projeto, são utilizados quadros Kanban através do Jira, que permitem o gerenciamento do fluxo de trabalho e a visualização das tarefas em progresso.
+
+## 4.1. Tickets
+
+A imagem abaixo representa os tipos de tickets e seus respectivos quadros:
+
+![Tickets](<imgs/modelagem de processos-Tickets.jpg>)
+
+### 4.1.1. Níveis
+
+Essa seção descreve os níveis de tickets utilizados no projeto:
+
+- **Operational**: É o nível mais alto de trabalho, do qual possui o ticket **Epic** e engloba os tickets dos níveis abaixo:
+  - **Architectural**: É o nível do qual representa o trabalho de arquitetura e planejamento e se trabalha com os tickets **Design** e **Modeling**.
+  - **DevOps**: É o nível do qual representa o trabalho de arquitetura e planejamento e se trabalha com os tickets **Design** e **Modeling**.
+  - **Execution**: É o nível do qual representa o trabalho de arquitetura e planejamento e se trabalha com os tickets **Design** e **Modeling**.
+  - **Development**: É o nível do qual representa o trabalho de arquitetura e planejamento e se trabalha com os tickets **Design** e **Modeling**.
+
+### 4.1.2. Estrutura
+
+Essa seção descreve a estrutura base para detalhamento dos tickets:
+
+- Contexto:
+
+## 4.2. Fluxos
 
 A imagem abaixo representa os fluxos de trabalho dos quadros Kanban do projeto:
 
 ![Fluxos](<imgs/modelagem de processos-Fluxos.jpg>)
 
-A imagem abaixo representa os tickets dos quadros Kanban do projeto:
+### 4.2.1. Operational
 
-![Tickets](<imgs/modelagem de processos-Tickets.jpg>)
+![Operational](<imgs/modelagem de processos-Operational.jpg>)
 
-## 4.1. Operational
+### 4.2.2. Architectural
 
+![Architectural](<imgs/modelagem de processos-Architectural.jpg>)
 
+### 4.2.3. DevOps
 
-## 4.2. Architectural
+![DevOps](<imgs/modelagem de processos-DevOps.jpg>)
 
-## 4.3. DevOps
+### 4.2.4. Execution
 
-## 4.4. Execution
+![Execution](<imgs/modelagem de processos-Execution.jpg>)
 
-## 4.5. Development
+### 4.2.5. Development
+
+![Development](<imgs/modelagem de processos-Development.jpg>)
