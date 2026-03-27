@@ -1,3 +1,5 @@
+<!-- markdownlint-disable-file MD025 -->
+
 # Metodologia
 
 Esta documentação detalha a proposta de metodologia de desenvolvimento para o Projeto Integrador do curso de Análise e Desenvolvimento de Sistemas da Fatec Lins - Professor Antonio Seabra. Através de um framework estruturado que integra papéis estratégicos, fluxos de trabalho Kanban e uma infraestrutura de ambientes, este documento responde de forma clara e objetiva: **Quem faz?**, **Como faz?** e **Quando faz?**, garantindo a excelência técnica, a transparência nos processos e a rastreabilidade em todo o ciclo de vida do software.
